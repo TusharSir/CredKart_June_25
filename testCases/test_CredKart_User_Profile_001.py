@@ -45,7 +45,7 @@ class Test_User_Profile_Class:
         # self.log.critical("This is critical")
 
         self.log.info("Checking title of login page")
-        if self.driver.title == "CredKart":
+        if self.driver.title == "CredKart1":
             self.log.info("Landed on correct page and it's title is: " + self.driver.title)
             #print("you are landed on correct page and it's title is:", self.driver.title)
             self.driver.save_screenshot(".\\Screenshots\\User login Successfully.png")
